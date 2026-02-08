@@ -1,0 +1,66 @@
+🐅 Credits:
+Konuya başlamadan şunu belirtmek istiyorum. Bu toolu profesyonel'e taşımam da yardımcı olan bi çok insan var amma velakin. Özellikle sanchez'e teşekkür ederim. Form'un bir üyesi değil ama kendisine teşekkür ve davetimi sunuyorum. Umarım kısa süre içinde bize katılır.
+
+Görsel (BANNER) için chafa kullanılmıştır.
+
+🕵️‍♂️ PRO-HUNTER v5
+
+Pro-Hunter v5, sıradan bir proxy checker değildir. Kamuoyuna açık (public) proxylerin %90'ının "çöp" veya "tuzak" olduğu bir dünyada, samanın içindeki iğneyi (Elite & Stable) bulmak için tasarlanmış profesyonel bir makinedir. 
+
+🚀 Neden Pro-Hunter v5
+
+Piyasadaki checkerların çoğu sadece "bağlantı var mı?" diye bakar. Pro-Hunter ise bir proxy'nin anatomisini inceler. 100 proxy bulup 8 tane bırakmasının sebebi, sizin güvenliğinizi ve botlarınızın başarısını korumaktır.
+
+🛠 Teknik Üstünlükler;
+
+Çift Doğrulama Elite Testi:
+
+• Bazı proxyler ilk istekte anonim taklidi yapar. Pro-Hunter, farklı domainler üzerinden yaptığı çift kontrolle proxy'nin gerçek kimliğini (Via, X-Forwarded-For) ortaya çıkarır.
+
+Transparan IP Filtrelemesi): 
+
+• Proxy çalışıyor olsa bile eğer sizin gerçek IP adresinizi sızdırıyorsa (Transparan), Pro-Hunter bu proxy'yi anında imha eder.
+
+One-Shot Test:
+
+• Proxy'ye küçük bir test uygular. İlk paketten sonra kilitlenen "One-Shot" proxyleri eler, sadece uzun süre stabil kalacak olanları seçer.
+
+HTTPS/TLS Doğrulama:
+
+• Sadece port kontrolü yapmaz; Cloudflare ve DDoS-Guard gibi modern korumaların beklediği TLS el sıkışmasını (SNI) doğrular.
+
+Kalite Değeri:
+
+• Proxyleri sadece "çalışıyor" diye kaydetmez. Hız, gizlilik ve stabilite verilerini harmanlayarak bir skor oluşturur ve en iyileri listenin en başına yazar.
+
+📋 Kullanım Rehberi
+
+Toplama: Dünya çapındaki taze kaynaklardan (GitHub, API, RAW) binlerce proxy çeker ve otomatik olarak tekilleştirir.
+
+Doğrulama (Checker): Toplanan ham listeyi Checker'a sokar.
+
+Sonuçlar:
+
+• elite_sirali.txt: Kimliğini asla belli etmeyen gizlilik canavarları.
+
+• https_sirali.txt: SSL/TLS destekleyen güvenli tüneller.
+
+• http_only.txt: Sadece düz web siteleri için uygun olanlar.
+
+⚠️ Kritik Notlar Unutmayın:
+
+• Bir proxy'nin "Elite" olması, o IP'nin tertemiz olduğu anlamına gelmez. Sadece sizin gerçek IP'nizi gizlediğini kanıtlar. Eğer IP daha önce botlar tarafından kara listeye (Blacklist) alınmışsa, site yine Captcha verebilir. Bu tool, sizi "ifşa olmaktan" ve "stabil olmayan bağlantılardan" korur.
+
+En İyi Performans İçin:
+
+• İnternet trafiğinin düşük olduğu 05:00 - 11:00 UTC saatleri arasında tarama yapmanız önerilir.
+
+💻 Kurulum ve Çalıştırma
+
+# Bağımlılıkları yükleyin
+pip install requests
+
+# Aracı başlatın
+python pro_hunter.py
+
+Geliştirici: sweazy | Platform: Türk Hack Team (THT)
