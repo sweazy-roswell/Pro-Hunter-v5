@@ -1,7 +1,0 @@
---- HTTPS PROXY LISTESI ---
-SIRALAMA KRITERI: Hiz + Stabilite + Gizlilik Skoru
-NOT: Elite durumu IP gizler ancak banlanmayi garanti etmez.
-EN IYI PERFORMANS ICIN: 05:00-11:00 UTC saatlerini kullanin.
-
-41.185.72.62:3030
-218.152.206.92:10080
